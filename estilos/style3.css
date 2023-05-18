@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #E3DFBA;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.container-header{
+    height: 5.625rem;
+    background-color: #6CBDB5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-nav-bar{
+   width: 43.75rem; 
+   display: flex;
+   justify-content: space-between;
+   
+}
+
+.link{
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.container-main{
+    display: flex;
+    flex-direction: row;
+    padding: 5% 20%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #C8D6BF;
+    padding: 5% 10%;
+    border-radius: 58px;
+    line-height: 30px;
+    gap: 30px;
+   
+}
+
+h1{
+    font-size: 2rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h4{
+    font-size: 1.2rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+p{
+    font-size: 1rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+div{
+    padding: 2%;
+    border: solid 2px black;
+}
+
+.container-footer{
+    background-color: #93CCC6;
+    height: 4.3125rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.texto-3{
+    font-size: 2.25rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+}
